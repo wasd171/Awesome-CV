@@ -1,0 +1,236 @@
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+% Awesome CV LaTeX Template for CV/Resume
+%
+% This template has been downloaded from:
+% https://github.com/posquit0/Awesome-CV
+%
+% Author:
+% Claud D. Park <posquit0.bj@gmail.com>
+% http://www.posquit0.com
+%
+% Template license:
+% CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
+%
+
+
+%-------------------------------------------------------------------------------
+% CONFIGURATIONS
+%-------------------------------------------------------------------------------
+% A4 paper size by default, use 'letterpaper' for US letter
+\documentclass[11pt, a4paper]{awesome-cv}
+
+% Configure page margins with geometry
+\geometry{left=1.4cm, top=.8cm, right=1.4cm, bottom=1.8cm, footskip=.5cm}
+
+% Specify the location of the included fonts
+\fontdir[fonts/]
+
+% Color for highlights
+% Awesome Colors: awesome-emerald, awesome-skyblue, awesome-red, awesome-pink, awesome-orange
+%                 awesome-nephritis, awesome-concrete, awesome-darknight
+\colorlet{awesome}{awesome-darknight} 
+% Uncomment if you would like to specify your own color
+% \definecolor{awesome}{HTML}{CA63A8}
+
+% Colors for text
+% Uncomment if you would like to specify your own color
+% \definecolor{darktext}{HTML}{414141}
+% \definecolor{text}{HTML}{333333}
+% \definecolor{graytext}{HTML}{5D5D5D}
+% \definecolor{lighttext}{HTML}{999999}
+
+% Set false if you don't want to highlight section with awesome color
+\setbool{acvSectionColorHighlight}{true}
+
+% If you would like to change the social information separator from a pipe (|) to something else
+\renewcommand{\acvHeaderSocialSep}{\quad\textbar\quad}
+
+
+%-------------------------------------------------------------------------------
+%	PERSONAL INFORMATION
+%	Comment any of the lines below if they are not required
+%-------------------------------------------------------------------------------
+% Available options: circle|rectangle,edge/noedge,left/right
+% \photo[rectangle,edge,right]{./examples/profile}
+\name{Oxana}{Spirina}
+\position{Media Planning Expert}
+%\address{Wieslergasse 14, 8049 Zurich, Switzerland}
+
+\mobile{+ 7 926 623 4994}
+\email{spirina.oxana@gmail.com}
+%\homepage{www.posquit0.com}
+%\github{wasd171}
+\linkedin{oxanaspirina}
+% \gitlab{gitlab-id}
+% \stackoverflow{SO-id}{SO-name}
+% \twitter{@twit}
+% \skype{skype-id}
+% \reddit{reddit-id}
+% \extrainfo{extra informations}
+
+%\quote{``The minion of fortune."}
+
+\usepackage[german]{babel}
+\usepackage[utf8x]{inputenc}
+\usepackage[german=quotes]{csquotes}
+
+
+%-------------------------------------------------------------------------------
+\begin{document}
+
+% Print the header with above personal informations
+% Give optional argument to change alignment(C: center, L: left, R: right)
+\makecvheader[C]
+
+% Print the footer with 3 arguments(<left>, <center>, <right>)
+% Leave any of these blank if they are not needed
+\makecvfooter
+  {\today}
+  {Oxana Spirina~~~·~~~Curriculum Vitæ}
+  {\thepage}
+
+
+%-------------------------------------------------------------------------------
+%	CV/RESUME CONTENT
+%	Each section is imported separately, open each file in turn to modify content
+%-------------------------------------------------------------------------------
+%\input{resume/summary.tex}
+%\input{resume/experience.tex}
+%\input{resume/honors.tex}
+%\input{resume/presentation.tex}
+%\input{resume/writing.tex}
+%\input{resume/committees.tex}
+%\input{resume/education.tex}
+%\input{resume/extracurricular.tex}
+
+% Summary
+\cvsection{Summary}
+
+\begin{cvparagraph}
+	Expert in digital media planning with practical experience working with one of the largest accounts in FMCG (Reckitt Benckiser, GlaxoSmithKline, Mars) and Financial (Mastercard). I put my soul and expertise into everything I do and believe that being passionate about your work is the best way to deliver value to the customer.
+\end{cvparagraph}
+
+% Work Experience
+\cvsection{Work Experience}
+\begin{cventries}
+\cventry
+	{Media Planner}
+	{Carat (Dentsu Aegis Network)}
+	{Moscow, Russia}
+	{May 2019 -- currently}
+	{
+		\begin{cvitems}
+			\item {Was responsible for all implementation briefs and ensured that the plans were properly executed}
+			\item {Managed media plans and budgets of up to 3M USD per campaign across all forms of media}
+			\item {Collaborated with the internal and external teams to ensure the smooth and holistic delivery of the requirements}
+			\item {Planned scenarios across a wide range of media (Digital, TV, Radio, OOH, Print)}
+			\item {Collected and analysed the client's post-campaign results to provide recommendations on refinements}
+			\item {Created, presented and defended media strategies and competitive analyses}
+			\item {Was responsible for managing the invoicing process}
+			\item {Fostered and maintained the positive client and vendor relationships through written and verbal communication}
+		\end{cvitems}
+	}
+	
+\cventry
+	{Junior Digital Planner}
+	{MediaCom (WPP)}
+	{Moscow, Russia}
+	{June 2018 -- May 2019}
+	{
+		\begin{cvitems}
+			\item {Worked collaboratively with Communications (Media) Planners on developing digital strategies}
+			\item {Led VNP (OLV) digital planning according to MKB to maximize the reach and the sales impact}
+			\item {Handled the experience planning, end-to-end implementation and evaluation of the advertisements\\on various digital platforms according to the campaign objectives and operating principles}
+			\item {Prepared client reports, presentations and other official documents}
+			\item {Presented and defended agency recommendations and outputs}
+			\item {Worked closely with digital vendors to stay up-to-date with new innovations for the next tests and ad hoc projects}
+		\end{cvitems}
+	}
+	
+\end{cventries}
+
+% Skills
+\cvsection{Skills}
+\begin{cvskills}
+	\cvskill
+		{Office}
+		{MS Office, iWork}
+	\cvskill
+		{Media research}
+		{WEB-Index, TV Index, M’Index, Radio Index, Google Analytics}
+	\cvskill
+		{Languages}
+		{Russian (native), English (IELTS Academic: 7.0), German B1 (in process)}
+\end{cvskills}
+
+% Education
+\cvsection{Education}
+\begin{cventries}
+\cventry
+	{M.Sc. Faculty of Communications, Media and Design. Media Management}
+	{National Research University Higher School of Economics}
+	{Moscow, Russia}
+	{2017 -- 2019}
+	{
+		\begin{cvitems}
+			\item {Thesis: \textit{The Role of Big Data in the Media \& Entertainment Industry: Collection and Utilization}}
+			\item {GPA: 8 out of 10}
+		\end{cvitems}
+	}
+	
+\cventry
+	{B.Sc. Faculty of International Energy Business. Management}
+	{National Research University Gubkin Russian State University of Oil and Gas}
+	{Moscow, Russia}
+	{2012 -- 2016}
+	{
+		\begin{cvitems}
+			\item {Thesis: \textit{Radical Innovations and the Gas Industry: Evaluation of the Current State}}
+			\item {GPA: 4.5 out of 5}
+		\end{cvitems}
+	}
+	
+\end{cventries}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+%-------------------------------------------------------------------------------
+\end{document}
